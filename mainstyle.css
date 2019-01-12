@@ -1,3 +1,4 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 html {
   position: relative;
   min-height: 100%;
@@ -45,9 +46,18 @@ h1 {
     margin-bottom: 1%;
   }
 
+.links{
+  font-size: 120%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
+}
 
   .profile-photo {
-  height: 150px;
+  height: 200px;
   border-radius: 50%;
   margin-top: 15%;
   margin-bottom: 0%;
@@ -64,12 +74,90 @@ h1 {
 }
 
   .description{
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     margin-top: 0%;
     color: grey;
-    font-weight: 300;
+    font-weight: lighter;
     text-align: center;
   }
+
+  @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+  a, a:hover {
+  	text-decoration: none;
+  	padding: 7px;
+  }
+
+  .socialbtns{
+    margin-top: 0%;
+
+  }
+  .socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+  	margin: 0;
+  	padding: 5px;
+  }
+
+  .socialbtnsbtnsbtns li {
+      list-style: none outside none;
+      display: inline-block;
+  }
+
+  .socialbtns li {
+    margin-top: 0%;
+    margin-bottom: 0%;
+      list-style: none outside none;
+      display: inline-block;
+  }
+
+  .socialbtns .fa {
+  	color: #FFF;
+  	text-shadow: 1px 1px 0px #000,
+  			1px -1px 0px #000,
+  			-1px 1px 0px #000,
+  			-1px -1px 0px #000;
+  	-webkit-text-shadow: 1px 1px 0px #000,
+  			1px -1px 0px #000,
+  			-1px 1px 0px #000,
+  			-1px -1px 0px #000;
+  	-moz-text-shadow: 1px 1px 0px #000,
+  			1px -1px 0px #000,
+  			-1px 1px 0px #000,
+  			-1px -1px 0px #000;
+  	-o-text-shadow: 1px 1px 0px #000,
+  			1px -1px 0px #000,
+  			-1px 1px 0px #000,
+  			-1px -1px 0px #000;
+  	transition: all ease-out 0.5s;
+  	-moz-transition: all ease-out 0.5s;
+  	-webkit-transition: all ease-out 0.5s;
+  	-o-transition: all ease-out 0.5s;
+  }
+
+  .socialbtns .fa:hover {
+  	color: #000;
+  	text-shadow: 1px 1px 0px #fff,
+  			1px -1px 0px #fff,
+  			-1px 1px 0px #fff,
+  			-1px -1px 0px #fff;
+  	-webkit-text-shadow: 1px 1px 0px #fff,
+  			1px -1px 0px #fff,
+  			-1px 1px 0px #fff,
+  			-1px -1px 0px #fff;
+  	-moz-text-shadow: 1px 1px 0px #fff,
+  			1px -1px 0px #fff,
+  			-1px 1px 0px #fff,
+  			-1px -1px 0px #fff;
+  	-o-text-shadow: 1px 1px 0px #fff,
+  			1px -1px 0px #fff,
+  			-1px 1px 0px #fff,
+  			-1px -1px 0px #fff;
+  	transition: all ease 0.5s;
+  	-moz-transition: all ease-in 0.5s;
+  	-webkit-transition: all ease-in 0.5s;
+  	-o-transition: all ease-in 0.5s;
+  }
+
+
 
 h1,
 .h1,
