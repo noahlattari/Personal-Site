@@ -1,12 +1,12 @@
 html {
-  background-color: #333333;
+  background-color: #2F353B;
 }
 
 #particles-js {
   position: static;
   height: 23vw;
   z-index: -1;
-  background-color: #333333;
+  background-color: #2F353B;
 }
 
 h1 {
@@ -26,6 +26,14 @@ h1 {
     padding: 20px 0px 10px 0px;
   }
 
+.profile-pic
+{
+  height: 35%;
+  width: 35%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  float: right;
+}
   .name{
     margin-bottom: 5%;
     color: white;
@@ -49,6 +57,7 @@ h1 {
     line-height: 155%;
     padding-bottom: 3%;
     font-weight: 50;
+    margin-bottom: 0%;
   }
 
 .profile{
