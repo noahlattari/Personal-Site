@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
     <script src="particles.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <title>noah lattari</title>
+    <script>
+    $(document).ready(function(){
+
+    /*! Fades in page on load */
+    $('#fade').css('display', 'none');
+    $('#fade').fadeIn(500);
+
+    });
+    </script>
   </head>
 
   <body lang ="en">
@@ -37,25 +46,29 @@
   </div>
 </nav>
 
-        <h1 class="name"> About </h1>
+<div id="fade">
 
+        <h1 class="name"> About </h1>
         <p class ="description">
-          rem ipsum dolor sit amet, consectetur adipiscing elit,  <img src="profile.jpg" class="profile-pic"> </img> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lab
+        <img src="profile.jpg" class="profile-pic"> </img>  Welcome to my site! I'm an American-Canadian 4th year Computer Science student studying at
+        Ryerson University in Toronto, Ontario. As of right now I'm just finishing up my second internship at <a href="url">Q4 Inc.</a> and will be heading
+        to my third internship in September at the <a href="url">Royal Bank of Canada </a> as a Software Engineer Intern. I'm currently seeking my 4th and 5th
+        internship.
       </p>
       <p class ="description">
-        rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lab
-    </p>
-    <p class ="description">
-      rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lab
-  </p>
-  <p class ="description">
-    rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lab
-</p>
-    </div>
+        As of right now, I've been really interested in Machine Learning, particularly for it's role in <a href="https://physicsworld.com/a/machine-learning-provides-insight-into-the-human-brain/"> understanding the brain. </a> I
+        really think Machine Learning and A.I can be the foot forward for humanity but it's all about how well we use it. I'm hoping to pursue a Master's of Science in Machine Learning after I graduate.
+    <h2> What I do on Campus </h2>
+    <hr class="white-hr">
+    <p class="description">
 
+    </p>
+<br>
+<br>
+<br>
+<br>
+</div>
+    </div>
   </div>
 
 
@@ -184,6 +197,7 @@ particlesJS('particles-js',
 
       );
 </script>
+
 
 
   </body>
