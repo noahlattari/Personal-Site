@@ -3,10 +3,10 @@ html {
 }
 
 #particles-js {
-  position: static;
+  position: inherit;
   height: 25vw;
-  z-index: -1;
   background-color: #2F353B;
+
 
 }
 
@@ -19,6 +19,7 @@ h1 {
 
 
   .navbar{
+  
     color: white;
     font-weight: 300;
     margin-top: 15px;
@@ -32,7 +33,7 @@ h1 {
 .profile-pic
 {
 
-  width: 35%;
+  width: 33%;
   margin-bottom: 0%;
   margin-left: 2%;
   float: right;
