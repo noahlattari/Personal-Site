@@ -5,10 +5,17 @@ html {
 #particles-js {
   position: relative;
   display: inline-block;
-  position: relative;
   width: 100%;
   height: 40vh;
   margin-top: 20%;
+}
+
+#footer {
+  width: 600px; height: 60px; margin: 0px auto;
+}
+
+.push {
+  height: 60px;
 }
 
 body {
@@ -19,6 +26,10 @@ h1 {
   font-size: 300%;
   margin-top: 0%;
   color: white;
+}
+
+.move{
+  padding-left: 4px;
 }
 
 .fade-in{
