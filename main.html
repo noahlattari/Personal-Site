@@ -3,202 +3,45 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="particles.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel='icon' href="https://s3.us-east-2.amazonaws.com/noahlattari.com/img/icon.png" type='image/x-icon'>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-
-
-  <title>Noah Lattari</title>
+  <title>Noah Mifsud-Lattari</title>
   <meta name="description" content="Noah Lattari, Software Engineer from Ryerson University">
   <meta name="keywords" content="Ryerson University, Software Engineer, Software Developer, Ryerson CS, Ryerson Computer Science,
-  Noah Lattari, Noah Mifsud Lattari, noahlattari, Software Engineer Toronto, Software Developer Toronto">
+  Noah Lattari, Noah Mifsud-Lattari, noahlattari, Noah Mifsud Lattari, Noah Ryerson, Software Engineer Toronto, Software Developer Toronto">
 </head>
 
   </head>
 
 <body lang ="en">
+<div class="fade-in">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link " href="main.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " href="resume.pdf">Resume</a>
-    </li>
-</ul>
-        </div>
-    </nav>
-
     <div class ="container-fluid">
-    <div class="fade-in">
-          <p class ="description"> Hey, I'm Noah Lattari. <br> I'm a 5th year CS student who will be joining Shopify this summer. Previously I was at Tesla, 
-                Amazon my and parent's restaurant <a href="https://philadelphiakitchen.ca/"> Philadelphia Kitchen. </a> <br>
+          <p class ="description"> Hey, I'm Noah Mifsud-Lattari 🍵 <br> <br> I'm a recent Computer Science graduate who has recently joined Shopify as a Software Engineer. Previously I worked at Tesla, 
+                Amazon, RBC, Q4 and even my and parent's restaurant <a href="https://philadelphiakitchen.ca/"> Philadelphia Kitchen </a>(Full-stack French Fry Developer).<br>
+
+            <br> If you'd like to read a bit more about me and my time as an undergrad and my work with student groups and such, feel free to <a href=about.html>here</a>. <br>
             <br> Feel free to connect with me on <a href="https://www.linkedin.com/in/noahlattari/">Linkedin</a>,
-            <a href="https://github.com/noahlattari">Github</a>, <a href="https://www.instagram.com/noahlattari/">Instagram</a>,
-            or send me an <a href="mailto:noah.lattari@gmail.com">email</a>. <br> <br> Also for what it is worth, this site will hopefully go through a large over-haul sometime this year. I am aware of the various CSS problems I have and would like to try a completely new design :p.
-          <br>
-      </div>
+            <a href="https://github.com/noahlattari">Github</a>, <a href="https://www.instagram.com/noahlattari/">Instagram</a>, <a href="https://twitter.com/noahmifs">Twitter</a>, 
+             <a href="mailto:noah.lattari@gmail.com">Email</a>, or just take a look at my <a href="http://noahlattari.com/resume.pdf">resume</a>. <br> <br> Also, this website will receive an overhaul sometime this year.... sometime.....
+          <br> <br>
+          <img src="./img/rock.jpg" class ="front-img">
+          <p class="subtext">
+            <small>
+             <i>
+              ~ me chillin on Mount Tamalpais in California during my Tesla internship ~
+             </i>
+            </small>
+           </p> 
+        </div>
+    </div>
 </div>
-</div>
-<div id="footer">
-  <div id="particles-js">
-  </div>
-</div>
-
-<script type="text/javascript">
-
-var clicked = 1;
-function changePosition() {
-  console.log("hi");
-  if(clicked % 2 != 0){
-    document.getElementById('particles-js').style.cssText = 'position: relative; bottom:0; width:100%; height:50%;'
-  }
-  if((clicked % 2 == 0) && (window.innerHeight >= 700)){
-    console.log("GREATER THAN 700");
-    document.getElementById('particles-js').style.cssText = 'position: absolute; bottom:0; width:100%; height:50%;'
-  }
-  if((clicked % 2 == 0) && (window.innerHeight < 700)){
-    console.log("LESS THAN 700");
-    document.getElementById('particles-js').style.cssText = 'position: relative; bottom:0; width:100%; height:50%;'
-  }
-
-  clicked++;
-}
-  /* ---- particles.js config ---- */
-  particlesJS('particles-js',
-
-        {
-            "particles": {
-                "number": {
-                    "value": 70,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#ffffff"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 0.5,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 2,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": false,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true,
-            "config_demo": {
-                "hide_card": false,
-                "background_color": "#",
-                "background_image": "",
-                "background_position": "50% 50%",
-                "background_repeat": "no-repeat",
-                "background_size": "cover"
-            }
-        }
-        );
-</script>
-
-
+ 
 </body>
 </html>
