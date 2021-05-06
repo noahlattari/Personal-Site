@@ -34,7 +34,6 @@ a {
 }
 
 .container {
-  margin-top: 3%;
   width: 40em;
   width: auto;
   max-width: 680px;
@@ -43,7 +42,6 @@ a {
 
 .container-fluid {
   margin-top: 5%;
-  margin-bottom: 300px;
 }
 
 .front-img{
