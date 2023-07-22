@@ -1,11 +1,12 @@
 html {
-background-color: #f2f3f4;
+  background-color: #f2f3f4;
 }
+
 body {
   background-color: inherit;
 }
 
-.navbar{
+.navbar {
   font-weight: 300;
   font-family: 'Open Sans';
   font-size: 130%;
@@ -15,7 +16,7 @@ a {
   color: #186318
 }
 
-.description{
+.description {
   display: block;
   color: black;
   font-style: normal;
@@ -25,7 +26,7 @@ a {
   font-weight: 150;
 }
 
-.subtext{
+.subtext {
   color: black;
   font-weight: 50;
   text-align: center;
@@ -44,7 +45,7 @@ a {
   margin-top: 5%;
 }
 
-.front-img{
+.front-img {
   max-width: 100%;
   height: auto;
 }
@@ -69,13 +70,16 @@ h6,
   right: 3px;
 }
 
-.white-hr{
-  display: block; height: 1px;
-  border: 0; border-top: 1px solid #ccc;
-  margin: 1em 0; padding: 0;
+.white-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-.profile-pic{
+.profile-pic {
   width: 40%;
   margin-bottom: 0%;
   margin-left: 2%;
@@ -83,25 +87,11 @@ h6,
 
 }
 
-.about-images{
+.about-images {
   width: 100%;
   border-radius: 1%;
   margin-top: -2%;
 
-}
-
-/* media tags */
-.fade-in{
-  animation: fadeIn 2.5s;
-
-}
-@keyframes fadeIn {
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
 }
 
 @media (max-width: 575px) {
@@ -110,4 +100,3 @@ h6,
     background-position: left 65% bottom 0%;
   }
 }
-
