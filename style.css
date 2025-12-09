@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #186318
+  color: #186318;
 }
 
 .description {
@@ -21,24 +21,19 @@ a {
   color: black;
   font-style: normal;
   font-size: 100%;
-  font-weight: 50;
+  font-weight: 300;
   line-height: 165%;
-  font-weight: 150;
 }
 
 .subtext {
   color: black;
-  font-weight: 50;
+  font-weight: 300;
   text-align: center;
   font-size: 100%;
-
 }
-
 .container {
-  width: 40em;
   width: auto;
   max-width: 680px;
-
 }
 
 .container-fluid {
@@ -81,17 +76,15 @@ h6,
 
 .profile-pic {
   width: 40%;
-  margin-bottom: 0%;
+  margin-bottom: 0;
   margin-left: 2%;
   float: right;
-
 }
 
 .about-images {
   width: 100%;
   border-radius: 1%;
   margin-top: -2%;
-
 }
 
 @media (max-width: 575px) {

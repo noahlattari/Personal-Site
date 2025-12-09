@@ -1,14 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Noah's VR Project</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <title>Noah's VR Project</title>
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -21,14 +22,9 @@
     }
   </style>
 </head>
-
-
-
-
-<div class="menu-container"></div>
-<div class="content-container">
-
-  <body>
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
     <div class="container">
       <div class="page-header">
         <h1>VR Reaction Simulation: Horde Survival</h1>
@@ -52,8 +48,7 @@
               <a target="_blank" href="https://www.ryerson.ca">Ryerson University</a><br>
               <a target="_blank" href="javascript:void(0)">Toronto, ON, Canada</a> <br> <br>
               <img src="crest.png" alt="crest" height="128" width="128">
-            </p>
-          </div>
+              <a target="_blank" href="http://www.scs.ryerson.ca/tmcinern/Courses/cps643.html">CPS 643: Virtual Reality</a><br>
         </div>
         <div class="flex-row">
           <div class="flex-item flex-column">
@@ -63,11 +58,9 @@
               in all different directions, so having top-notch reactions are a key for survival.
             </p>
           </div>
-        </div>
-        <!--End Intro-->
-
-
-        <!--Start Text around Images-->
+            <p class="text add-top-margin">
+              Horde Survival is a Virtual Reality game/simulation written in C# with Unity. The purpose of the game is simply to see how long you survive against endless hordes of randomly generated enemies. Enemies spawn in all different directions, so having top-notch reactions is key for survival.
+            </p>t Text around Images-->
         <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 class="add-top-margin">In Further Detail</h2>
@@ -80,30 +73,13 @@
               them.
               At first it may seem easy, but the spawn rate becomes exponentially higher the longer the player survives.
               <thead>
-                cap is at a certain number since you can't spawn infinite skeletons but it does get really hard. The
-                goal of <thead>
-                  game is to see how high of a combo you can get (my record is around 100). After dying, the player is
-                  taken to a death
-                  screen and told to try again.
-                  <br>
-                  <br>
-                  The game pays homage to some of my favourite video games, such as music from "Super Smash Brothers:
-                  Melee", sound effects
-                  from "Minecraft", and a gameover screen inspired by "Earthbound".
-                  <br>
-                  I hope you're able to enjoy it as much as I enoyed creating it, it's available for download <a
-                    href="https://gitlab.scs.ryerson.ca/nlattari/cps643-labs/tree/master/FinalProject">here</a>.
-                  Just open the "Assets" folder in Unity 2017.3.0 and run any of the scenes.
-                </thead>
-              </thead>
-            </p>
-          </div>
-        </div>
-        <!--End Text around Images-->
-
-        <!--Start Credits-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text">
+              <img class="image image-wrap-text max-width-400" src="ss2.png" alt="Horde Survival gameplay screenshot">
+              Horde Survival consists of surviving a horde of enemies. There are 3 spawn points (in front, to the left, and to the right) where enemies may spawn, with each spawn point computed randomly. The player needs to be constantly alert to react quickly enough to skeletons spawning around them. At first it may seem easy, but the spawn rate becomes exponentially higher the longer the player survives. The cap is at a certain number since you can't spawn infinite skeletons, but it does get really hard. The goal of the game is to see how high of a combo you can get (my record is around 100). After dying, the player is taken to a death screen and told to try again.
+              <br><br>
+              The game pays homage to some of my favourite video games, such as music from "Super Smash Brothers: Melee", sound effects from "Minecraft", and a game over screen inspired by "Earthbound".
+              <br><br>
+              I hope you enjoy it as much as I enjoyed creating it. It's available for download <a href="https://gitlab.scs.ryerson.ca/nlattari/cps643-labs/tree/master/FinalProject">here</a>. Just open the "Assets" folder in Unity 2017.3.0 and run any of the scenes.flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic">
               Credits: <span class="highlight-text">Noah Mifsud Lattari</span>: Ryerson University
           </div>
@@ -112,6 +88,24 @@
       </div>
     </div>
 </div>
+</body>
+
+</html>            </p>
+          </div>
+        </div>
+        <!--End Text around Images-->
+        <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+              Credits: <span class="highlight-text">Noah Mifsud Lattari</span>: Ryerson University
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
